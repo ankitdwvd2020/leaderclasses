@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    color: #686868;
+    font-family: "Libre Baskerville";
+    font-size: 14px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.main-nav li {
+    display: inline;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding: 8px 0;
+    /* color: white; */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-family: "Pragati Narrow";
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:visited {
+    border-bottom: 2px solid #581845;
+}
+
+.hero-text-box {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/4390579/pexels-photo-4390579.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: "Gilda Display";
+    text-transform: uppercase;
+    font-size: 250%;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-align: center;
+    padding-top: 12%;
+}
+
+strong {
+    font-size: 140%;
+    text-align: center;
+    color: white;
+    margin-left: 25%;
+}
+
+.btn:link,
+.btn-visited {
+    display: inline;
+    padding: 10px 30px;
+    font-weight: 300%;
+    text-decoration: none;
+    border-radius: 200px;
+    color: white;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    float: right;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #800080;
+    color: white;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #581845;
+    color: white;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #581845;
+    color: white;
+}
+
+.button {
+    position: absolute;
+    left: 50%;
+    /* -ms-transform: translateX(-30%); */
+    transform: translateX(-45%);
+}
+
+.tale h1 {
+    margin-top: -9%;
+    color: #000000;
+}
+
+.long-copy p {
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.title-leader h1 {
+    margin-top: -9%;
+    margin-bottom: 5%;
+    color: black;
+}
+
+.feature-1,
+.feature-2,
+.feature-3,
+.feature-4 {
+    color: black;
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+    margin-left: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: 300%;
+    float: right;
+}
+
+.feature-2 {
+    color: black;
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: 300%;
+    float: right;
+}
+
+.feature-2 strong {
+    margin-bottom: -10%;
+}
+
+.feature-3 {
+    color: black;
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+    margin-left: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: 300%;
+    float: right;
+}
+
+.feature-4 {
+    color: black;
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+    /* margin-left: 100px; */
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: 300%;
+    float: right;
+}
+
+.feature-5 {
+    color: black;
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+    /* margin-left: 100px; */
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: 300%;
+    float: right;
+}
+
+.feature-6 {
+    color: black;
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+    /* margin-left: 100px; */
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: 300%;
+    float: right;
+    margin-bottom: 2%;
+}
+
+.feature-7 {
+    color: black;
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+    /* margin-left: 100px; */
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: 300%;
+    float: right;
+}
+
+.college-grid {
+    width: 70%;
+    margin-left: 15%;
+    justify-content: center;
+}
+
+.economy-grid {
+    width: 80%;
+    margin-left: 15%;
+    justify-content: center;
+    margin-top: -5%;
+    margin-bottom: -5%;
+}
+
+.company-grid {
+    width: 80%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    justify-content: center;
+    /* background-size: cover; */
+}
+
+.five-grid {
+    width: 80vh;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    float: left;
+}
+
+.container h4 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.card {
+    margin-top: 10px;
+    margin-left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+    border-radius: 0 0 10px 10px;
+}
+
+.content {
+    width: 70vh;
+    margin-left: 30%;
+}
+
+.wisdom {
+    width: 50vh;
+    margin-left: 37%;
+}
+
+.feature-9 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 100%;
+}
+
+.heading-testimonial {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 300;
+    margin-bottom: 3%;
+}
+
+.avatar-1 {
+    vertical-align: middle;
+    width: 30vh;
+    border-radius: 50%;
+}
+
+.avatar1-profile {
+    margin-top: 5%;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height: 145%;
+    width: 150%;
+    margin-left: -40%;
+    text-align: center;
+    padding-right: 20px;
+}

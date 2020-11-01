@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: whitesmoke;
+    color: #686868;
+    font-family: "Libre Baskerville";
+    font-size: 14px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Gilda Display";
+    font-size: 240%;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 300%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+strong {
+    font-family: "Libre Baskerville";
+    font-size: 150%;
+    margin: 0;
+    color: white;
+    font-weight: 300%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/4390579/pexels-photo-4390579.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.main-nav li {
+    display: inline;
+    margin-left: 30px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding: 8px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-family: "Pragati Narrow";
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:visited {
+    border-bottom: 2px solid #581845;
+}
+
+.btn:link,
+.btn-visited {
+    display: inline;
+    padding: 10px 30px;
+    font-weight: 300%;
+    text-decoration: none;
+    border-radius: 200px;
+    color: white;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #581845;
+    color: white;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #581845;
+    color: white;
+}
